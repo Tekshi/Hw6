@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HW:6</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h2>Brian Nguyen HW 6</h2>
+
+    
+
+<div id = "body">
+
+
+    <div id = "messageOutput">            
+
+            <table id = "candidateTable">
+                    <h2 align="center">Candidate List</h2>
+                    <tr>
+                      <th><center>Candidate</center></th>
+                      <th><center>Likes</center></th>
+                      <th> </th>
+                      <th> </th>
+                    </tr>
+                    <tr>
+                      <p id = "candidateName"><td>Peter Parker</td>
+                      <td><p id ="likeNum"> 700 </p></td>
+                      <td><input type = "button" value ="Like" onclick = "add1(this)" /></td>
+                      <td><input type = "button" value ="Delete" onclick = "deleteRow(this)" /></td>
+                    </tr>
+
+                    <p id = "candidateName"><td>Wade Winston Wilson</td>
+                        <td><p id ="likeNum"> 403 </p></td>
+                        <td><input type = "button" value ="Like" onclick = "add1(this)" /></td>
+                        <td><input type = "button" value ="Delete" onclick = "deleteRow(this)" /></td>
+                      </tr>
+
+                      <p id = "candidateName"><td>Bruce Wayne</td>
+                        <td><p id ="likeNum"> 251 </p></td>
+                        <td><input type = "button" value ="Like" onclick = "add1(this)" /></td>
+                        <td><input type = "button" value ="Delete" onclick = "deleteRow(this)" /></td>
+                      </tr>
+
+                      <p id = "candidateName"><td>Bruce Banner</td>
+                        <td><p id ="likeNum"> 218 </p></td>
+                        <td><input type = "button" value ="Like" onclick = "add1(this)" /></td>
+                        <td><input type = "button" value ="Delete" onclick = "deleteRow(this)" /></td>
+                      </tr>
+
+                     <tr>
+                      <p id = "candidateName"><td>Tony Stark</td>
+                      <td><p id ="likeNum"> 135 </p></td>
+                      <td><input type = "button" value ="Like" onclick = "add1(this)" /></td>
+                      <td><input type = "button" value ="Delete" onclick = "deleteRow(this)" /></td>
+                    </tr>
+
+                    <p id = "candidateName"><td>Diana Prince</td>
+                        <td><p id ="likeNum"> 133 </p></td>
+                        <td><input type = "button" value ="Like" onclick = "add1(this)" /></td>
+                        <td><input type = "button" value ="Delete" onclick = "deleteRow(this)" /></td>
+                      </tr>
+
+                      <p id = "candidateName"><td>Clark Kent</td>
+                        <td><p id ="likeNum"> 122 </p></td>
+                        <td><input type = "button" value ="Like" onclick = "add1(this)" /></td>
+                        <td><input type = "button" value ="Delete" onclick = "deleteRow(this)" /></td>
+                      </tr>
+
+                      <p id = "candidateName"><td>Steven Grant Rogers</td>
+                        <td><p id ="likeNum"> 117 </p></td>
+                        <td><input type = "button" value ="Like" onclick = "add1(this)" /></td>
+                        <td><input type = "button" value ="Delete" onclick = "deleteRow(this)" /></td>
+                      </tr>
+
+                     <tr>
+                      <p id = "candidateName"><td>Dash</td>
+                      <td><p id ="likeNum"> 0 </p></td>
+                      <td><input type = "button" value ="Like" onclick = "add1(this)" /></td>
+                      <td><input type = "button" value ="Delete" onclick = "deleteRow(this)" /></td>
+                    </tr>
+
+                    </table>
+                  
+
+    </div>
+
+
+    <div id = "createForm">    
+            <table id = "createTable">
+                    <h2 align="center">Create a Candidate</h2>         
+        <form id="candidateForm">
+                <input type="text" id="candidateInput" placeholder="Name">
+                <button type="button" onclick="createCandidate()">Create</button>    
+            </form>
+        </p>
+        </p>
+    </div>
+
+</div>
+
+
+    <script src="app.js">
+    </script>
+</body>
+
+</html>
